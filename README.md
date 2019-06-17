@@ -1,7 +1,9 @@
 # MVC, Routes and params discussion questions
+
 Take 30 minutes to discuss the following questions with your table group.
 
 ## MVC
+
 * What is the MVC Pattern?
 * What are the distinct responsibilities of the Model, View and Controller?
 * What advantages and trade-offs do you see in the MVC pattern?
@@ -12,8 +14,9 @@ Take 30 minutes to discuss the following questions with your table group.
 * What do you find confusing about the MVC pattern?
 
 ## Routing
+
 * Map the CRUD actions to the appropriate Sinatra route to the appropriate view, if any. What kind of HTTP request is sent for each CRUD action (`GET`, `POST`, etc)
-* Let's say you have build a Sinatra app that is a news platform. You have an Article and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit `http://youramazingsinatranews.example.com/articles` (not a real link!):
+* Let's say you have built a Sinatra app that is a news platform. You have an Article and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit `http://youramazingsinatranews.example.com/articles` (not a real link!):
   - What kind of web request is this making? (i.e. is it a `GET`, `POST`, etc request?)
   - What controller action (i.e. which route in which controller) will recieve that web request?
   - What is the response that your Sinatra app will send back to the client, i.e. the browser?
@@ -44,6 +47,7 @@ Take 30 minutes to discuss the following questions with your table group.
 * Discuss the REST-ful routes of a Sinatra app. For which routes would you `render` a view and for which would you `redirect to` another route? Why?
 
 ## params
+
 * Where does the params hash come from?
 * What utility does the params hash provide?
 * Given the two Sinatra scenarios below how would the params hash look like (What keys will the hash contain)?
