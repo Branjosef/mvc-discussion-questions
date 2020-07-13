@@ -1,4 +1,4 @@
-# MVC, Routes and params discussion questions
+# Discussion Questions: MVC, Routes and Params
 
 Take 30 minutes to discuss the following questions with your table group.
 
